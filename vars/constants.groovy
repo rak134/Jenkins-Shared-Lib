@@ -1,7 +1,7 @@
 import groovy.transform.Field
 
 // Constants defined with @Field to make them globally accessible
-@Field String GIT_URL = 'https://github.com/devops5014/sample-webapp.git'
+@Field String GIT_URL = 'https://github.com/rak134/demo.git'
 @Field String PASSWORD = 'github-pass'
 
 def call() {
