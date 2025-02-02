@@ -7,7 +7,7 @@ import groovy.transform.Field
 
 // Jenkins Credential IDs
 @Field String GIT_CREDENTIALS_ID = 'github-token'
-@Field String ECR_CREDENTIALS_ID = '120569619769'
+@Field String ECR_CREDENTIALS_ID = 'aws-credentials'
 
 def call() {
     return this
